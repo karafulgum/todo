@@ -3,6 +3,8 @@ $c-brandYellow: #ffff8c;
 $c-white: #fff;
 $c-text: #1c1c2c;
 $c-placeholder: rgba(0, 0, 0, 0.38);
+$box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 
 @import 'reset';
 @import 'layout';
+@import 'components/nav';

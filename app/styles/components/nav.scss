@@ -1,0 +1,44 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  background: $c-brandBlue;
+  color: $c-white;
+  box-shadow: $box-shadow;
+  height: 4.5rem;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem 0 0 1rem;
+    width: 5%;
+  }
+
+  &__top-title {
+    margin: 0;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__bottom-item {
+    margin: 0;
+    width: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.8;
+    border-bottom: 3px solid transparent;
+
+    &:hover {
+      border-bottom: 3px solid $c-brandYellow;
+    }
+
+    &--placeholder {
+      background: $c-placeholder;
+    }
+  }
+}
